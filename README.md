@@ -414,3 +414,137 @@ Actualizar el valor del campo `Counter__c` en el registro del Lead que activó e
 - En **Update Records 1**, se **persiste ese nuevo valor** en la base de datos de Salesforce, escribiéndolo directamente en el registro del Lead.
 
 ![Update Records](/Pantallazos/Flows/Flows8.PNG)
+
+# 5**.** 📊**REPORTES Y DASHBOARDS**
+
+Con el objetivo de **controlar y analizar datos clave**, se solicitó la creación de diversos **Reportes** y **Dashboards** que muestren información **actualizada y precisa**, facilitando la toma de **decisiones estratégicas** basadas en datos reales.
+
+👁️‍🗨️ Estos recursos se enfocan en los siguientes departamentos:
+
+💼 **Ventas**
+
+🛠️ **Casos de Soporte**
+
+🛒 **Compras y Proveedores**
+
+## 📝 **Reportes**
+
+Antes de crear los reportes, se deben generar **carpetas** para almacenar y organizar los informes requeridos por la compañía.
+
+![Folders de Reportes](/Pantallazos/Reports/Reports1.PNG)
+
+Folders de Reportes
+
+➡️ Las carpetas se crean por **departamento**: **Ventas**, **Soporte** y **Compras**, garantizando orden y control de acceso.
+
+### 📈 **Ejemplo de Reporte: Ingresos Generados**
+
+El siguiente reporte refleja los **ingresos generados** por cada oportunidad cerrada. Gracias a la potencia de Salesforce, este reporte se **actualiza automáticamente** con cada nueva oportunidad cerrada.
+
+Esto permite a los **gerentes** llevar un control detallado de los **indicadores críticos**, acelerando la toma de decisiones basadas en información real.
+
+![Reporte de Ingresos alcanzados](/Pantallazos/Reports/Reports2.PNG)
+
+Reporte de Ingresos alcanzados
+
+## 📊 **Dashboards**
+
+Los **Dashboards** permiten visualizar múltiples reportes en un solo lugar, brindando un **resumen interactivo** de los indicadores más relevantes para cada departamento. Ejemplos:
+
+- 📊 Oportunidades **Ganadas vs Perdidas**
+- 💰 **Ingresos Proyectados**
+- 📁 Casos **Abiertos vs Cerrados**
+- 🧾 Historial de **Órdenes de Compra**
+- ✅ Compras **Completadas vs No Culminadas**
+
+![DashBoards Folder](/Pantallazos/Dashboards/DashboardsFolders.PNG)
+
+DashBoards Folder
+
+Al igual que los reportes, se crean **carpetas específicas por departamento** para compartir los Dashboards de forma organizada y estructurada.
+
+### 📊 **Ejemplo: Dashboard de Ventas**
+
+El Dashboard de ventas combina **gráficos y tablas** para una visualización detallada de la información, como el seguimiento de **oportunidades ganadas y perdidas**.
+
+![Dashboard Ventas](/Pantallazos/Dashboards/Dashboard1.PNG)
+
+Dashboard Ventas
+
+🔍 Con esta información, el equipo de ventas puede tomar acciones para **reducir oportunidades perdidas** y **aumentar los ingresos**. Además, gracias a la actualización automática de Salesforce, cada oportunidad cerrada se refleja **en tiempo real** en el Dashboard.
+
+### 🔐 **Control de Visualización de Dashboards**
+
+Podemos restringir el acceso a los Dashboards para garantizar que **solo roles autorizados** puedan visualizarlos. En este caso, el cliente solicitó que los Dashboards fueran visibles únicamente para el **CEO** y los **gerentes de cada departamento**.
+
+# 🚀 **Conclusión**
+
+La implementación de **reportes y Dashboards interactivos** es fundamental para lograr una **gestión eficiente, estratégica y orientada a resultados**. Estas herramientas permiten a la organización:
+
+- Tomar **decisiones informadas y ágiles**.
+- Monitorear **indicadores clave** en tiempo real.
+- Asegurar que cada **departamento tenga visibilidad** de su rendimiento.
+
+🔍 **Salesforce** proporciona la capacidad de transformar datos en **acciones**, fortaleciendo la operación y garantizando el crecimiento de la organización.
+
+# 6. 📱APPS PERSONALIZADAS
+
+Se realizó la creación de **dos aplicaciones personalizadas** con el objetivo de mostrar de forma centralizada la información de nuestros **Objetos Personalizados**, así como los **Reportes** y **Dashboards** relevantes.
+
+## ⚙️ **Creación de Lightning Apps**
+
+Desde el buscador rápido (**Quick Search**), navegamos a **App Manager** → seleccionamos **New Lightning App** para iniciar el proceso.
+
+![Crear Lightning App](/Pantallazos/Apps/App6.PNG)
+
+## 📝 **App Details & Branding**
+
+Se despliega la ventana **App Details & Branding**, donde diligenciamos la información básica de la aplicación:
+
+- **Nombre de la App**
+- **API Name**
+- **Descripción Breve**
+- **Imagen representativa** para fácil identificación
+
+![Detalles de nuestra App](/Pantallazos/Apps/App1.PNG)
+
+## 🧩 **Configuración: App Options y Utility Items**
+
+En las ventanas siguientes: **App Options** y **Utility Items (Desktop Only)**, avanzamos seleccionando **Next** sin modificaciones específicas.
+
+![Navigation Items](/Pantallazos/Apps/Apps4.PNG)
+
+## 🧭 **Navigation Items**
+
+En la sección **Navigation Items**, configuramos qué objetos e ítems estarán visibles y serán accesibles desde la aplicación.
+
+Para nuestra aplicación **SalesApp**, se requiere acceso a los siguientes módulos clave:
+
+- **Leads**
+- **Opportunities**
+- **Accounts**
+- **Contacts**
+- **Dashboards**
+- **Reports**
+
+![Aplicacion de Ventas](/Pantallazos/Apps/Apps7.PNG)
+
+## 📊 **Visualización de la Aplicación de Ventas**
+
+En la siguiente imagen se muestra cómo se visualiza la **SalesApp** desde el perfil de **Sales Manager**, específicamente con el usuario **Maria Gomez**. Ella puede acceder a sus respectivos **Dashboards** y **Reports**, esenciales para la gestión y toma de decisiones comerciales.
+
+## 🚀 **Conclusión**
+
+La creación de **Lightning Apps** permite centralizar de forma eficiente toda la información clave para cada rol dentro de la organización. Esta funcionalidad mejora la **productividad**, optimiza la **navegación**, y garantiza el **acceso personalizado** a datos relevantes, lo que impulsa una toma de decisiones más **ágil y efectiva**.
+
+# 7. 🧠📌Conclusiones🚀✅
+
+🔐 **1. Seguridad: Protección de Datos y Accesos**  
+Fue posible evidenciar cómo Salesforce cuenta con un alto grado de personalización al momento de establecer qué usuarios pueden ver, editar, crear registros u objetos. Esto permite un flujo adecuado de la información entre los diferentes roles que se pueden definir en nuestra organización.
+
+📊 **2. Visualización de Datos: Toma de Decisiones Basada en Información Real**  
+Los reportes y dashboards son herramientas importantes ya que permiten la visualización en tiempo real de la información de nuestra organización. Adicionalmente, permiten segmentación de la información de acuerdo a los diferentes departamentos, garantizando que los usuarios accedan a los datos según su rol dentro de la compañía.
+
+⚙️ **3. Automatización: Eficiencia Operativa y Reducción de Errores**  
+La automatización mediante Flows permite optimizar procesos en tareas repetitivas dentro de nuestra organización, reduciendo la intervención de diferentes usuarios. Esto disminuye la probabilidad de errores y asegura consistencia en nuestros procesos. Finalmente, facilita la escalabilidad del negocio, adaptándose al crecimiento de la compañía sin comprometer la eficiencia.
+
