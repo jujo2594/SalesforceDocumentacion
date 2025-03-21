@@ -548,3 +548,5 @@ Los reportes y dashboards son herramientas importantes ya que permiten la visual
 ⚙️ **3. Automatización: Eficiencia Operativa y Reducción de Errores**  
 La automatización mediante Flows permite optimizar procesos en tareas repetitivas dentro de nuestra organización, reduciendo la intervención de diferentes usuarios. Esto disminuye la probabilidad de errores y asegura consistencia en nuestros procesos. Finalmente, facilita la escalabilidad del negocio, adaptándose al crecimiento de la compañía sin comprometer la eficiencia.
 
+# SALESFORCE PRESENTACION
+[Ver presentación en Google Slides](https://docs.google.com/presentation/d/145sTkQ95GB8mS9oBCucGN8cP7EF1Q8_FL9KiPPpuBE0/edit?slide=id.g34474735f4e_2_94#slide=id.g34474735f4e_2_94)
